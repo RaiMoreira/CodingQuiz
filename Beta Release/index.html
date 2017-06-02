@@ -1,0 +1,42 @@
+<html>
+
+    <head>
+	<link rel="stylesheet" type="text/css" href="studentStyles.css">
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+    </head>
+
+<body>
+
+<div class="signin-form">
+
+	<div class="container">
+
+	<form action="connect.php" method="post" id="myForm" class="form-signin">
+	<h2 class="form-signin-heading">Online Coding Quiz</h2><hr />
+	USERNAME<br> <input type="text" name="user" id="username"><br>
+	PASSWORD<br> <input type="password" name="password" id="password"><br>
+
+	<label class='radio-inline'>
+  <input name="Check" class="Check" id='Check' type="radio" 	  	  value="teacher" />Teacher
+  </label>
+                        
+        <label class='radio-inline'>
+        <input name="Check" class="Check" id='Check' type="radio" 		 	 value="student" />Student 
+     </label>
+
+	<br><button id="submit">Login</button>
+	</form>
+
+	</div>
+</div>
+
+<div id="ack"></div>
+
+<script type="text/javascript" src="jquery-1.11.3-jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html> 
+
+
