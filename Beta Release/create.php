@@ -1,7 +1,7 @@
 <?php
-    session_start();
+   // session_start();
     include('teacherHeader.php');
-    include('addQuestion.php');
+    //include('addQuestion.php');
 ?>
 <?php 
 $msg = "";
