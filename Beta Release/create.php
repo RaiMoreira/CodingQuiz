@@ -1,5 +1,5 @@
 <?php
-   // session_start();
+   session_start();
     include('teacherHeader.php');
     //include('addQuestion.php');
 ?>
@@ -29,6 +29,12 @@ if(isset($_GET['msg'])){
 	<input type="text" name="action" placeholder="eg.a * b">
 	<label for="parameters">Write the appropriate return value below:</label>
 	<input type="text" name="returns" placeholder="eg.25">
+	<label for="parameters">Write the appropriate answer below:</label>
+  	<textarea name="answer" rows="7" cols="30">Public static int CalcSomthing(int a, int b){
+  	result = a * b 
+  	return result; 
+  	}</textarea>
+  <br>
 	<input type="submit" value="Submit">
 	</form>
 

@@ -261,4 +261,28 @@ button {
 {
     background: #109177;
 }
+
+.choice input[type="text"],input[type="date"]{
+      height: 25px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+}
+.take-quiz h1,p{
+  text-align: center;
+}
+.quizsheet{
+  position: relative;
+  margin:0px auto;
+}
+.displaygrades h1,div{
+  position: relative;
+  text-align: center;
+}
+.grades-table{
+  vertical-align: middle;
+  height: 100%;
+  margin: 0 auto;
+  text-align:center;
+}
+
 </style>

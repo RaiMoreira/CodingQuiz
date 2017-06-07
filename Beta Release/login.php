@@ -10,8 +10,6 @@
        
 
 ?>
-
-
 <html>
 
     <head>
@@ -26,20 +24,24 @@
 
 	<div class="container">
 
-	<form action="connect.php" method="post" id="myForm" class="form-signin">
+	<form action="logincheck.php" method="post" id="myForm" class="form-signin">
 	<h2 class="form-signin-heading">Online Coding Quiz</h2><hr />
-	USERNAME<br> <input type="text" name="user" id="username"><br>
-	PASSWORD<br> <input type="password" name="password" id="password"><br>
+	USERNAME<br> <input type="text" name="user" id="username" required><br>
+	PASSWORD<br> <input type="password" name="password" id="password" required><br>
 
 	<label class='radio-inline'>
-  <input name="Check" class="Check" id='Check' type="radio" 	  	  value="teacher" />Teacher
+  <input name="Check" class="Check" id='Check' type="radio" 	  	  value="teacher" required />Teacher
   </label>
                         
         <label class='radio-inline'>
-        <input name="Check" class="Check" id='Check' type="radio" 		 	 value="student" />Student 
+        <input name="Check" class="Check" id='Check' type="radio" 		 	 value="student" required />Student 
      </label>
 
-	<br><button id="submit">Login</button>
+	<label class='button'>
+
+                        <input type='submit' name='submit' value='Log In' />
+
+                        </label>
 	</form>
 
 	</div>
@@ -52,3 +54,7 @@
 
 </body>
 </html> 
+
+<?php
+
+?>

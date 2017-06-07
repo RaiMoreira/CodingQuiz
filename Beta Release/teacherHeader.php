@@ -17,8 +17,8 @@
 <div id='cssmenu'>
 <ul>
    <li class='active'><a href="http://web.njit.edu/~rm454/teacher.php">Teacher</a></li>
-   <li><a href="http://web.njit.edu/~rm454/create.php">Create</a></li>
-   <li><a href="http://web.njit.edu/~rm454/getQuestions.php">Get Questions</a></li>
+   <li><a href="http://web.njit.edu/~rm454/create.php">Add Question </a></li>
+   <li><a href="http://web.njit.edu/~rm454/getquestions.php">Create Exam</a></li>
    <li><a href="http://web.njit.edu/~rm454/studentGrades.php">Student Grades</a></li>
    <li><a href="http://web.njit.edu/~rm454/logout.php">Logout</a></li>
 </ul>

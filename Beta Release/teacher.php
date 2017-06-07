@@ -1,6 +1,6 @@
 <?php
 	    session_start();
-	    include('teacherHeader.php');
+	    include('theader.php');
 ?>
 	<link rel="stylesheet" type="text/css" href="studentStyles.css">
 	        <div class="alert alert-success">

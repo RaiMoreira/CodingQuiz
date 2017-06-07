@@ -1,5 +1,5 @@
 <?php
-    //session_start();
+    session_start();
 ?>
 
 <html>
@@ -16,10 +16,11 @@
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href="http://web.njit.edu/~rm454/student.php">Student</a></li>
-   <li><a href="http://web.njit.edu/~rm454/quizList.php">Take Quiz</a></li>
-   <li><a href="http://web.njit.edu/~rm454/getGrades.php">Grade</a></li>
-   <li><a href="http://web.njit.edu/~rm454/logout.php">Logout</a></li>
+   <li class='active'><a href="https://web.njit.edu/~rm454/teacher.php">Teacher</a></li>
+   <li><a href="https://web.njit.edu/~rm454/create.php">Create</a></li>
+   <li><a href="https://web.njit.edu/~rm454/getquestions.php">Get Questions</a></li>
+   <li><a href="https://web.njit.edu/~rm454/studentGrades.php">Student Grades</a></li>
+   <li><a href="https://web.njit.edu/~rm454/logout.php">Logout</a></li>
 </ul>
 </div>
 
