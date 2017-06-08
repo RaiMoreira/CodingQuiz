@@ -30,7 +30,7 @@
         </div>
         <p></p>
         <p></p>
-            <form class="quizSheet" action="http://web.njit.edu/~rm454/submitQuiz.php" method="post">
+            <form class="quizSheet" action="submitQuiz.php" method="post">
                 
                   <table id="$N" class="create-quiz" border="1" cellpadding="1" cellspacing="1">
                     <?php

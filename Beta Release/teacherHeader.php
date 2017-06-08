@@ -16,11 +16,11 @@
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href="http://web.njit.edu/~rm454/teacher.php">Teacher</a></li>
-   <li><a href="http://web.njit.edu/~rm454/create.php">Add Question </a></li>
-   <li><a href="http://web.njit.edu/~rm454/getquestions.php">Create Exam</a></li>
-   <li><a href="http://web.njit.edu/~rm454/studentGrades.php">Student Grades</a></li>
-   <li><a href="http://web.njit.edu/~rm454/logout.php">Logout</a></li>
+   <li class='active'><a href="teacher.php">Teacher</a></li>
+   <li><a href="create.php">Add Question </a></li>
+   <li><a href="getquestions.php">Create Exam</a></li>
+   <li><a href="studentGrades.php">Student Grades</a></li>
+   <li><a href="logout.php">Logout</a></li>
 </ul>
 </div>
 
