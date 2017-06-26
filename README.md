@@ -7,9 +7,11 @@ form: "Write a method named calcSomthing that takes parameters named a and b of 
 MileStones: 
 
 Alpha: Login System.
-
+![Alt text](https://github.com/RaiMoreira/CodingQuiz/blob/master/Final%20Release/Loginpage.jpg)
 Beta:Fully functional system supporting four use-cases:
+![Alt text](https://github.com/RaiMoreira/CodingQuiz/blob/master/Final%20Release/Landingpage.jpg)
 1) Instructor may add questions to a question bank.
+![Alt text](https://github.com/RaiMoreira/CodingQuiz/blob/master/Final%20Release/Createquestion.jpg)
 2) Instructor may select questions from the question bank to create an exam. 
 3) Student may take exam, and (after Intructor releases scores). 
 4) Student may check exam score and feedback.
@@ -25,5 +27,4 @@ only one part, with no overlap. Each contributor may run their code ONLY from yo
 
 Contributors must develop a communication protocol for all communication between tiers. Post requests will be used for requests; 
 XML or JSON will be used for replies.
-
 
