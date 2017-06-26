@@ -13,6 +13,7 @@ Beta:Fully functional system supporting four use-cases:
 1) Instructor may add questions to a question bank.
 ![Alt text](https://github.com/RaiMoreira/CodingQuiz/blob/master/Final%20Release/Createquestion.jpg)
 2) Instructor may select questions from the question bank to create an exam. 
+![Alt text](https://github.com/RaiMoreira/CodingQuiz/blob/master/Final%20Release/questionbank.jpg)
 3) Student may take exam, and (after Intructor releases scores). 
 4) Student may check exam score and feedback.
 
