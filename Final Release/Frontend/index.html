@@ -1,0 +1,40 @@
+
+<?php 
+        session_start();
+	include ('logincheck.php');
+?>
+<html>
+
+    <head>
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+    </head>
+
+<body>
+
+<div class="login">
+
+	<h1>Coding Quiz</h1>
+
+	<form action="logincheck.php" method="post" id="myForm" class="form">
+	<p class="field">
+	USERNAME<br> <input type="text" name="user" id="username" required><br>
+	</p>
+	<p class="field">
+	PASSWORD<br> <input type="password" name="password" id="password" required><br>
+	</p>
+
+	<br>
+ 
+      <p class="submit"><input type="submit" name="submit" value="Login"></p>
+
+	</form>
+
+	
+</div>
+
+</body>
+</html> 
+
+

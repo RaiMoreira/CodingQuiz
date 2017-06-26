@@ -1,0 +1,265 @@
+
+
+body{
+  background:#f4f7f8;
+}
+
+.form-signin {
+    max-width: 375px;
+    padding: 19px 19px 19px;
+    margin: 0 auto;
+    background-color: #e8eeef;
+  
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      
+  font-family:Tahoma, Raleway, sans-serif;
+  color:#67757e;
+  font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    
+    color:#67757e;
+    text-align: center;
+}
+.form-signin input[type="text"],
+
+.form-signin input[type="password"]{
+
+    font-size: 16px;
+    height: 45px;
+    padding: 9px 9px;
+}
+
+.signin-form, .body-container
+{
+  text-align: center;
+  margin-top:110px;
+}
+.navbar-brand{
+  font-family:"Lucida Handwriting";
+}
+button {
+    background-color: #109177;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: #ffffff;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
+<style type="text/css">
+.form-style-5{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+    background: #109177;
+}
+</style>
+
